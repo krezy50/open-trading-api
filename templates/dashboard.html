@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자동매매 대시보드</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">
+    <style>
+        /* CSS for profit/loss colors */
+        .profit { color: green; }
+        .loss { color: red; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>자동매매 대시보드</h1>
+        <p>상태: {{ "활성화" if is_trading_active else "비활성화" }}</p>
+    </header>
+
+    <main>
+        <section class="balance-info">
+            <h2>계좌 정보</h2>
+            {# balance_info가 딕셔너리이고 비어있지 않은지 확인 #}
+            {% if balance_info and balance_info != {} %}
+                <p>총 평가 자산: {{ balance_info.tot_evlu_amt | default(0) | int | format_currency }} 원</p>
+                <p>예수금 (D+2): {{ balance_info.nxdy_excc_amt | default(0) | int | format_currency }} 원</p>
+                <p>총 손익금액: {{ balance_info.evlu_pfls_smtl_amt | default(0) | int | format_currency }} 원</p>
+                <p>총 손익률: {{ balance_info.asst_icdc_erng_rt | default(0) | float | round(2) }}%</p>
+                {# KIS API output1의 다른 유용한 필드들을 추가할 수 있습니다.
+                   예: balance_info.dnca_tot_amt (총 예수금), balance_info.scts_evlu_amt (주식평가금액)
+                   정확한 필드명은 KIS API 문서나 print(balance_info) 로그를 통해 확인하세요.
+                #}
+            {% else %}
+                <p>계좌 정보를 불러오거나 표시할 수 없습니다. (정보 없음)</p>
+            {% endif %}
+        </section>
+
+        <section class="portfolio-info">
+            <h2>보유 종목</h2>
+            {% if portfolio %}
+            <table>
+                <thead>
+                    <tr>
+                        <th>종목명</th>
+                        <th>보유수량</th>
+                        <th>매입평균가</th>
+                        <th>현재가</th>
+                        <th>평가손익</th>
+                        <th>수익률</th>
+                        <th>평가금액</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in portfolio %}
+                    <tr>
+                        <td>{{ item.name }} ({{ item.code }})</td>
+                        <td>{{ item.quantity | int }}</td>
+                        <td>{{ item.avg_price | round(2) | format_currency }}</td>
+                        <td>{{ item.current_price | int | format_currency }}</td>
+                        <td class="{{ 'profit' if item.profit_loss > 0 else 'loss' if item.profit_loss < 0 else '' }}">
+                            {{ item.profit_loss | int | format_currency }}
+                        </td>
+                        <td class="{{ 'profit' if item.profit_rate > 0 else 'loss' if item.profit_rate < 0 else '' }}">
+                            {{ item.profit_rate | round(2) }}%
+                        </td>
+                        <td>{{ item.position_value | int | format_currency }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <p>총 보유 종목 평가 금액: {{ total_value | int | format_currency }} 원</p>
+            {% else %}
+            <p>현재 보유하고 있는 종목이 없습니다.</p>
+            {% endif %}
+        </section>
+
+        </main>
+
+    <footer>
+        <p>&copy; 2025 KIS Auto Trading System</p>
+    </footer>
+
+    {# Jinja2에서 통화 형식으로 변환하는 필터는 Python 코드(main.py)에서 정의해야 합니다. #}
+    {# 여기서는 단순히 표시를 위한 예시이므로, 실제 필터가 정의되어 있어야 작동합니다. #}
+</body>
+</html>

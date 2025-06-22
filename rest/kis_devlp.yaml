@@ -1,7 +1,7 @@
 #홈페이지에서 API서비스 신청시 받은 Appkey, Appsecret 값 설정
 #실전투자
-my_app: ""
-my_sec: ""
+my_app: "PSvSNdNIsisZKqJoXmhL5GdWO5u1kL5pb2CK"
+my_sec: "+kiFS9Y0tao8D309lkOwal7sZWhYtztnnJR6f5kkExvr1INeNbIN9ZTziN5Rrx6oWQ+jG8jlT86lnNmkimbKkpcsyZb4IVWgivsOMSUFBJwfh2gTC/ocIM8gRp74eacQO2+Xc4kVFETphKfeMYo1AzwcdYZN/oKfbGv3Sq80UNpiIZ6gSF0="
 
 #모의투자
 paper_app: ""

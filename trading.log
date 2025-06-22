@@ -1,0 +1,136 @@
+2025-06-22 20:07:24,531 - root - ERROR - 대시보드 오류: 'Settings' object has no attribute 'KIS_ACCOUNT_PRODUCT_CD'
+2025-06-22 20:10:20,969 - root - ERROR - 대시보드 오류: API 오류: 해당 서비스를 찾을수 없습니다.
+2025-06-22 20:10:25,197 - root - ERROR - 대시보드 오류: API 오류: 해당 서비스를 찾을수 없습니다.
+2025-06-22 20:18:31,004 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:18:31,005 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:18:31,006 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:18:31,006 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:18:31,006 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:18:31,010 - apscheduler.scheduler - INFO - Added job "TradingScheduler.prepare_trading_day" to job store "default"
+2025-06-22 20:18:31,010 - apscheduler.scheduler - INFO - Added job "TradingScheduler.analyze_themes" to job store "default"
+2025-06-22 20:18:31,011 - apscheduler.scheduler - INFO - Added job "TradingScheduler.execute_trading" to job store "default"
+2025-06-22 20:18:31,011 - apscheduler.scheduler - INFO - Added job "TradingScheduler.manage_positions" to job store "default"
+2025-06-22 20:18:31,011 - apscheduler.scheduler - INFO - Added job "TradingScheduler.end_trading_day" to job store "default"
+2025-06-22 20:18:31,012 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-22 20:18:31,012 - app.scheduler - INFO - 자동매매 스케줄러 시작됨
+2025-06-22 20:18:31,014 - root - INFO - 자동매매 시스템 시작됨
+2025-06-22 20:19:19,174 - root - ERROR - 대시보드 오류: 'KISAuth' object has no attribute 'is_mock'
+2025-06-22 20:21:02,397 - app.scheduler - INFO - 자동매매 스케줄러 중지됨
+2025-06-22 20:21:02,398 - root - INFO - 자동매매 시스템 종료됨
+2025-06-22 20:21:02,403 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-06-22 20:21:07,912 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:21:07,913 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:21:07,913 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:21:07,913 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:21:07,914 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:21:07,917 - apscheduler.scheduler - INFO - Added job "TradingScheduler.prepare_trading_day" to job store "default"
+2025-06-22 20:21:07,918 - apscheduler.scheduler - INFO - Added job "TradingScheduler.analyze_themes" to job store "default"
+2025-06-22 20:21:07,918 - apscheduler.scheduler - INFO - Added job "TradingScheduler.execute_trading" to job store "default"
+2025-06-22 20:21:07,918 - apscheduler.scheduler - INFO - Added job "TradingScheduler.manage_positions" to job store "default"
+2025-06-22 20:21:07,919 - apscheduler.scheduler - INFO - Added job "TradingScheduler.end_trading_day" to job store "default"
+2025-06-22 20:21:07,919 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-22 20:21:07,919 - app.scheduler - INFO - 자동매매 스케줄러 시작됨
+2025-06-22 20:21:07,920 - root - INFO - 자동매매 시스템 시작됨
+2025-06-22 20:21:14,236 - root - ERROR - 대시보드 오류: 'hldg_qty'
+2025-06-22 20:21:30,615 - root - ERROR - 대시보드 오류: 'hldg_qty'
+2025-06-22 20:24:29,434 - app.scheduler - INFO - 자동매매 스케줄러 중지됨
+2025-06-22 20:24:29,435 - root - INFO - 자동매매 시스템 종료됨
+2025-06-22 20:24:29,435 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-06-22 20:24:34,799 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:24:34,799 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:24:34,800 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:24:34,800 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:24:34,800 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:24:34,805 - apscheduler.scheduler - INFO - Added job "TradingScheduler.prepare_trading_day" to job store "default"
+2025-06-22 20:24:34,805 - apscheduler.scheduler - INFO - Added job "TradingScheduler.analyze_themes" to job store "default"
+2025-06-22 20:24:34,806 - apscheduler.scheduler - INFO - Added job "TradingScheduler.execute_trading" to job store "default"
+2025-06-22 20:24:34,806 - apscheduler.scheduler - INFO - Added job "TradingScheduler.manage_positions" to job store "default"
+2025-06-22 20:24:34,806 - apscheduler.scheduler - INFO - Added job "TradingScheduler.end_trading_day" to job store "default"
+2025-06-22 20:24:34,807 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-22 20:24:34,807 - app.scheduler - INFO - 자동매매 스케줄러 시작됨
+2025-06-22 20:24:34,807 - root - INFO - 자동매매 시스템 시작됨
+2025-06-22 20:24:39,948 - root - INFO - 계좌 잔고 조회 결과 (balance_info): []
+2025-06-22 20:24:39,949 - root - INFO - 보유 종목 조회 결과 (holdings): [{'dnca_tot_amt': '1909', 'nxdy_excc_amt': '1909', 'prvs_rcdl_excc_amt': '1909', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '0', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '0', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '0', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '1909', 'nass_amt': '1909', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '1909', 'asst_icdc_amt': '0', 'asst_icdc_erng_rt': '0.00000000'}]
+2025-06-22 20:24:39,950 - root - WARNING - 보유 종목 항목에 필수 키(hldg_qty, pdno, pchs_avg_pric)가 누락되었습니다: {'dnca_tot_amt': '1909', 'nxdy_excc_amt': '1909', 'prvs_rcdl_excc_amt': '1909', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '0', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '0', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '0', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '1909', 'nass_amt': '1909', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '1909', 'asst_icdc_amt': '0', 'asst_icdc_erng_rt': '0.00000000'}
+2025-06-22 20:24:50,642 - root - INFO - 계좌 잔고 조회 결과 (balance_info): []
+2025-06-22 20:24:50,642 - root - INFO - 보유 종목 조회 결과 (holdings): [{'dnca_tot_amt': '1909', 'nxdy_excc_amt': '1909', 'prvs_rcdl_excc_amt': '1909', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '0', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '0', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '0', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '1909', 'nass_amt': '1909', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '1909', 'asst_icdc_amt': '0', 'asst_icdc_erng_rt': '0.00000000'}]
+2025-06-22 20:24:50,643 - root - WARNING - 보유 종목 항목에 필수 키(hldg_qty, pdno, pchs_avg_pric)가 누락되었습니다: {'dnca_tot_amt': '1909', 'nxdy_excc_amt': '1909', 'prvs_rcdl_excc_amt': '1909', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '0', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '0', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '0', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '1909', 'nass_amt': '1909', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '1909', 'asst_icdc_amt': '0', 'asst_icdc_erng_rt': '0.00000000'}
+2025-06-22 20:32:15,164 - app.scheduler - INFO - 자동매매 스케줄러 중지됨
+2025-06-22 20:32:15,172 - root - INFO - 자동매매 시스템 종료됨
+2025-06-22 20:32:15,185 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-06-22 20:32:22,984 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:32:22,986 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:32:22,986 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:32:22,987 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:32:22,987 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:32:22,993 - apscheduler.scheduler - INFO - Added job "TradingScheduler.prepare_trading_day" to job store "default"
+2025-06-22 20:32:22,994 - apscheduler.scheduler - INFO - Added job "TradingScheduler.analyze_themes" to job store "default"
+2025-06-22 20:32:22,994 - apscheduler.scheduler - INFO - Added job "TradingScheduler.execute_trading" to job store "default"
+2025-06-22 20:32:22,995 - apscheduler.scheduler - INFO - Added job "TradingScheduler.manage_positions" to job store "default"
+2025-06-22 20:32:22,995 - apscheduler.scheduler - INFO - Added job "TradingScheduler.end_trading_day" to job store "default"
+2025-06-22 20:32:22,996 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-22 20:32:22,996 - app.scheduler - INFO - 자동매매 스케줄러 시작됨
+2025-06-22 20:32:22,997 - root - INFO - 자동매매 시스템 시작됨
+2025-06-22 20:32:29,814 - root - INFO - 계좌 잔고 조회 결과 (balance_info): []
+2025-06-22 20:32:29,814 - root - INFO - 보유 종목 조회 결과 (holdings): [{'dnca_tot_amt': '1909', 'nxdy_excc_amt': '1909', 'prvs_rcdl_excc_amt': '1909', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '0', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '0', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '0', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '1909', 'nass_amt': '1909', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '1909', 'asst_icdc_amt': '0', 'asst_icdc_erng_rt': '0.00000000'}]
+2025-06-22 20:32:29,815 - root - INFO - 보유 종목이 없거나, API 응답 형식이 예상과 다릅니다. holdings: [{'dnca_tot_amt': '1909', 'nxdy_excc_amt': '1909', 'prvs_rcdl_excc_amt': '1909', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '0', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '0', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '0', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '1909', 'nass_amt': '1909', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '1909', 'asst_icdc_amt': '0', 'asst_icdc_erng_rt': '0.00000000'}]
+2025-06-22 20:36:09,250 - app.scheduler - INFO - 자동매매 스케줄러 중지됨
+2025-06-22 20:36:09,251 - root - INFO - 자동매매 시스템 종료됨
+2025-06-22 20:36:09,253 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-06-22 20:36:19,349 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:36:19,350 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:36:19,351 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:36:19,352 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:36:19,352 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:36:19,358 - apscheduler.scheduler - INFO - Added job "TradingScheduler.prepare_trading_day" to job store "default"
+2025-06-22 20:36:19,359 - apscheduler.scheduler - INFO - Added job "TradingScheduler.analyze_themes" to job store "default"
+2025-06-22 20:36:19,359 - apscheduler.scheduler - INFO - Added job "TradingScheduler.execute_trading" to job store "default"
+2025-06-22 20:36:19,360 - apscheduler.scheduler - INFO - Added job "TradingScheduler.manage_positions" to job store "default"
+2025-06-22 20:36:19,360 - apscheduler.scheduler - INFO - Added job "TradingScheduler.end_trading_day" to job store "default"
+2025-06-22 20:36:19,360 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-22 20:36:19,361 - app.scheduler - INFO - 자동매매 스케줄러 시작됨
+2025-06-22 20:36:19,361 - root - INFO - 자동매매 시스템 시작됨
+2025-06-22 20:36:29,034 - root - ERROR - 대시보드 오류: name 'logging' is not defined
+Traceback (most recent call last):
+  File "C:\Users\krezy\pythonProject\open-trading-api\app\main.py", line 85, in dashboard
+    balance_info, holdings = await kis_client.get_balance()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\krezy\pythonProject\open-trading-api\app\kis_api\client.py", line 156, in get_balance
+    logging.debug(f"KIS API Raw Response: {json.dumps(data, indent=2)}")
+    ^^^^^^^
+NameError: name 'logging' is not defined. Did you forget to import 'logging'?
+2025-06-22 20:37:21,834 - root - ERROR - 대시보드 오류: name 'logging' is not defined
+Traceback (most recent call last):
+  File "C:\Users\krezy\pythonProject\open-trading-api\app\main.py", line 85, in dashboard
+    balance_info, holdings = await kis_client.get_balance()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\krezy\pythonProject\open-trading-api\app\kis_api\client.py", line 156, in get_balance
+    # 로그에 API 원본 응답을 남겨서 디버깅에 도움
+NameError: name 'logging' is not defined. Did you forget to import 'logging'?
+2025-06-22 20:37:25,240 - root - ERROR - 대시보드 오류: name 'logging' is not defined
+Traceback (most recent call last):
+  File "C:\Users\krezy\pythonProject\open-trading-api\app\main.py", line 85, in dashboard
+    balance_info, holdings = await kis_client.get_balance()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\krezy\pythonProject\open-trading-api\app\kis_api\client.py", line 156, in get_balance
+    # 로그에 API 원본 응답을 남겨서 디버깅에 도움
+NameError: name 'logging' is not defined. Did you forget to import 'logging'?
+2025-06-22 20:37:27,354 - app.scheduler - INFO - 자동매매 스케줄러 중지됨
+2025-06-22 20:37:27,354 - root - INFO - 자동매매 시스템 종료됨
+2025-06-22 20:37:27,355 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-06-22 20:37:32,244 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:37:32,245 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:37:32,245 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:37:32,245 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:37:32,246 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-22 20:37:32,249 - apscheduler.scheduler - INFO - Added job "TradingScheduler.prepare_trading_day" to job store "default"
+2025-06-22 20:37:32,250 - apscheduler.scheduler - INFO - Added job "TradingScheduler.analyze_themes" to job store "default"
+2025-06-22 20:37:32,250 - apscheduler.scheduler - INFO - Added job "TradingScheduler.execute_trading" to job store "default"
+2025-06-22 20:37:32,251 - apscheduler.scheduler - INFO - Added job "TradingScheduler.manage_positions" to job store "default"
+2025-06-22 20:37:32,251 - apscheduler.scheduler - INFO - Added job "TradingScheduler.end_trading_day" to job store "default"
+2025-06-22 20:37:32,251 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-22 20:37:32,252 - app.scheduler - INFO - 자동매매 스케줄러 시작됨
+2025-06-22 20:37:32,252 - root - INFO - 자동매매 시스템 시작됨
+2025-06-22 20:37:34,366 - root - INFO - 계좌 잔고 조회 결과 (balance_info): {'dnca_tot_amt': '1909', 'nxdy_excc_amt': '1909', 'prvs_rcdl_excc_amt': '1909', 'cma_evlu_amt': '0', 'bfdy_buy_amt': '0', 'thdt_buy_amt': '0', 'nxdy_auto_rdpt_amt': '0', 'bfdy_sll_amt': '0', 'thdt_sll_amt': '0', 'd2_auto_rdpt_amt': '0', 'bfdy_tlex_amt': '0', 'thdt_tlex_amt': '0', 'tot_loan_amt': '0', 'scts_evlu_amt': '0', 'tot_evlu_amt': '1909', 'nass_amt': '1909', 'fncg_gld_auto_rdpt_yn': '', 'pchs_amt_smtl_amt': '0', 'evlu_amt_smtl_amt': '0', 'evlu_pfls_smtl_amt': '0', 'tot_stln_slng_chgs': '0', 'bfdy_tot_asst_evlu_amt': '1909', 'asst_icdc_amt': '0', 'asst_icdc_erng_rt': '0.00000000'}
+2025-06-22 20:37:34,367 - root - INFO - 보유 종목 조회 결과 (holdings): []
+2025-06-22 20:37:34,367 - root - INFO - 보유 종목이 없거나, API 응답 형식이 예상과 다릅니다. holdings: []
